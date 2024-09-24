@@ -28,26 +28,26 @@ st.set_page_config(
 # Load the pre-trained models
 def load_models():
     models = {}
-    with open('xgb_model.pkl', 'rb') as f:
+    with open('models\\xgb_model.pkl', 'rb') as f:
         models['XGBRegressor'] = pickle.load(f)
-    with open('hgb_model.pkl', 'rb') as f:
+    with open('models\\hgb_model.pkl', 'rb') as f:
         models['HistGradientBoosting'] = pickle.load(f)
-    with open('decision_tree_model.pkl', 'rb') as f:
+    with open('models\\decision_tree_model.pkl', 'rb') as f:
         models['DecisionTreeRegressor'] = pickle.load(f)
-    with open('rf_model.pkl', 'rb') as f:
+    with open('models\\rf_model.pkl', 'rb') as f:
         models['RandomForestRegressor'] = pickle.load(f)
-    with open('linear_regression_model.pkl', 'rb') as f:
+    with open('models\\linear_regression_model.pkl', 'rb') as f:
         models['LinearRegression'] = pickle.load(f)
-    with open('svm_model.pkl', 'rb') as f:
+    with open('models\\svm_model.pkl', 'rb') as f:
         models['SVR'] = pickle.load(f)
     return models
 
 # Load pre-processing objects
-with open('scaler.pkl', 'rb') as f:
+with open('models\\scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
-with open('label_encoder.pkl', 'rb') as f:
+with open('models\\label_encoder.pkl', 'rb') as f:
     le = pickle.load(f)
-with open('imputer.pkl', 'rb') as f:
+with open('models\\imputer.pkl', 'rb') as f:
     imputer = pickle.load(f)
 
 # Dictionary for storing loaded models
