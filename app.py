@@ -50,14 +50,14 @@ with col1:
     torque = st.number_input("Torque (Nm)", min_value=50, max_value=1000, value=250)
     length = st.number_input("Length (mm)", min_value=1000, max_value=6000, value=4000)
     body_type = st.selectbox("Body Type", X_train_1['bt'].unique())
-
+    width = st.number_input("Width (mm)", min_value=1000, max_value=3000, value=1800)
 
 with col2:
     oem = st.selectbox("Brand", sorted(X_train_1['oem'].unique())) 
     model_year = st.selectbox("Model Year", sorted(X_train_1['modelYear'].unique())) 
     insurance_validity = st.selectbox("Insurance Validity", sorted(X_train_1['Insurance Validity'].unique()))
     no_of_cylinders = st.selectbox("Number of Cylinders", sorted(X_train_1['No of Cylinder'].unique()))
-    width = st.number_input("Width (mm)", min_value=1000, max_value=3000, value=1800)
+
 
 with col3:
     transmission = st.selectbox("Transmission", sorted(X_train_1['Transmission'].unique()))
