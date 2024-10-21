@@ -2,8 +2,9 @@
 
 ## Overview
 
-This project aims to predict car prices using machine learning techniques. We've developed a model that takes various features of a car as input and predicts its price. The model is deployed as a user-friendly web application using Streamlit.
-
+This project aims to predict car prices using machine learning techniques. We've developed a model that takes various car features as input and predicts its price. The model is deployed as a user-friendly web application using Streamlit.
+![Screenshot 2024-10-05 231352](https://github.com/user-attachments/assets/d8b3a117-313b-409e-8a01-09995df98d1b)
+![Screenshot 2024-10-07 143421](https://github.com/user-attachments/assets/08c1b556-c102-4ad0-aba2-4d05f6338971)
 
 ## Features
 
