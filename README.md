@@ -105,6 +105,9 @@ The Streamlit app was developed to make the model accessible to users for predic
 - Insights Page: Provides users with data visualizations such as:
   - Mileage Distribution: A histogram to visualize how car mileage is distributed.
   - Correlation Heatmap: Displays the correlations between numerical features like mileage, torque, and car dimensions.
+#
+![Screenshot 2024-10-22 092526](https://github.com/user-attachments/assets/555ca452-6fbc-4950-ad6c-79bc3e51d965)
+# 
 ## File Descriptions
 - app.py: The main file containing the Streamlit app logic.
 - models folder: Contains the trained machine learning models, scalers, and encoders.
